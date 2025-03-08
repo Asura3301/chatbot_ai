@@ -22,11 +22,11 @@ conda create -n chatbotai python=3.12 -y
 ```bash
 conda activate chatbotai
 ```
-or 
+or if you have ```CondaError: Run 'conda init' before 'conda activate'```
+
 ```bash
 source activate chatbotai
 ```
-if you have ```CondaError: Run 'conda init' before 'conda activate'```
 
 ### STEP 02- install the requirements
 ```bash
