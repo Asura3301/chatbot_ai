@@ -10,7 +10,7 @@ Personal Projects | Chatbot specialized in the topic of artificial intelligence
 Clone the repository
 
 ```bash
-Project repo: https://github.com/
+Project repo: https://github.com/Asura3301/chatbot_ai
 ```
 
 ### STEP 01- Create a conda environment after opening the repository
