@@ -3,6 +3,7 @@ Personal Projects | Chatbot specialized in the topic of artificial intelligence
 
 
 **ChatBot that specialized in the fields of artificial intelligence, machine learning, deep learning and algorithms.**
+This project is an advanced conversational agent that leverages state-of-the-art technologies in AI, machine learning, deep learning, and data engineering. It integrates LangChain with Pinecone for efficient vector data management, utilizes HuggingFace embedding models for robust semantic representation, and employs the Groq Cloud API with the Llama-3-8B-Instruct model for high-performance language processing. The result is a chatbot enhanced by retrieval augmented generation (RAG), ideal for autonomous agents and intelligent systems.
 
 # How to run?
 ### STEPS:
@@ -10,7 +11,7 @@ Personal Projects | Chatbot specialized in the topic of artificial intelligence
 Clone the repository
 
 ```bash
-Project repo: https://github.com/
+Project repo: https://github.com/Asura3301/chatbot_ai
 ```
 
 ### STEP 01- Create a conda environment after opening the repository
@@ -39,19 +40,20 @@ pip install -r requirements.txt
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GROQ_API_KEY     = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
 ### Download the quantize model from the link provided in model folder & keep the model in the model directory:
 
 ```ini
-## Download the Llama 2 Model:
+## Download the Llama 3 Model:
 
-llama-2-7b-chat.ggmlv3.q4_0.bin
+meta-llama/Meta-Llama-3-8B-Instruct
 
 
 ## From the following link:
-https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct
 ```
 
 ```bash
@@ -74,5 +76,6 @@ open up localhost:
 - Python
 - LangChain
 - Flask
-- Meta Llama2
+- Meta Llama3
 - Pinecone
+- Groq
