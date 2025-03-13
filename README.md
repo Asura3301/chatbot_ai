@@ -3,6 +3,7 @@ Personal Projects | Chatbot specialized in the topic of artificial intelligence
 
 
 **ChatBot that specialized in the fields of artificial intelligence, machine learning, deep learning and algorithms.**
+
 This project is an advanced conversational agent that leverages state-of-the-art technologies in AI, machine learning, deep learning, and data engineering. It integrates LangChain with Pinecone for efficient vector data management, utilizes HuggingFace embedding models for robust semantic representation, and employs the Groq Cloud API with the Llama-3-8B-Instruct model for high-performance language processing. The result is a chatbot enhanced by retrieval augmented generation (RAG), ideal for autonomous agents and intelligent systems.
 
 # How to run?
